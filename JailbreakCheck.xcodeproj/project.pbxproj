@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE877A3B1415B0AE0096A689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE877A3A1415B0AE0096A689 /* UIKit.framework */; };
+		EE877A3D1415B0AE0096A689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE877A3C1415B0AE0096A689 /* Foundation.framework */; };
+		EE877A3F1415B0AE0096A689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE877A3E1415B0AE0096A689 /* CoreGraphics.framework */; };
+		EE877A451415B0AE0096A689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE877A431415B0AE0096A689 /* InfoPlist.strings */; };
+		EE877A471415B0AE0096A689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE877A461415B0AE0096A689 /* main.m */; };
+		EE877A4B1415B0AE0096A689 /* JailbreakCheckAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE877A4A1415B0AE0096A689 /* JailbreakCheckAppDelegate.m */; };
+		EE877A4E1415B0AE0096A689 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE877A4C1415B0AE0096A689 /* MainWindow.xib */; };
+		EE877A511415B0AE0096A689 /* JailbreakCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE877A501415B0AE0096A689 /* JailbreakCheckViewController.m */; };
+		EE877A541415B0AE0096A689 /* JailbreakCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE877A521415B0AE0096A689 /* JailbreakCheckViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE877A361415B0AE0096A689 /* JailbreakCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JailbreakCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE877A3A1415B0AE0096A689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE877A3C1415B0AE0096A689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE877A3E1415B0AE0096A689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE877A421415B0AE0096A689 /* JailbreakCheck-Info.plist */ = {isa = PBXFileReference; path = "JailbreakCheck-Info.plist"; sourceTree = "<group>"; };
+		EE877A441415B0AE0096A689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE877A461415B0AE0096A689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE877A481415B0AE0096A689 /* JailbreakCheck-Prefix.pch */ = {isa = PBXFileReference; path = "JailbreakCheck-Prefix.pch"; sourceTree = "<group>"; };
+		EE877A491415B0AE0096A689 /* JailbreakCheckAppDelegate.h */ = {isa = PBXFileReference; path = JailbreakCheckAppDelegate.h; sourceTree = "<group>"; };
+		EE877A4A1415B0AE0096A689 /* JailbreakCheckAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakCheckAppDelegate.m; sourceTree = "<group>"; };
+		EE877A4D1415B0AE0096A689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EE877A4F1415B0AE0096A689 /* JailbreakCheckViewController.h */ = {isa = PBXFileReference; path = JailbreakCheckViewController.h; sourceTree = "<group>"; };
+		EE877A501415B0AE0096A689 /* JailbreakCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakCheckViewController.m; sourceTree = "<group>"; };
+		EE877A531415B0AE0096A689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JailbreakCheckViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE877A331415B0AE0096A689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE877A3B1415B0AE0096A689 /* UIKit.framework in Frameworks */,
+				EE877A3D1415B0AE0096A689 /* Foundation.framework in Frameworks */,
+				EE877A3F1415B0AE0096A689 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE877A2B1415B0AE0096A689 = {
+			isa = PBXGroup;
+			children = (
+				EE877A401415B0AE0096A689 /* JailbreakCheck */,
+				EE877A391415B0AE0096A689 /* Frameworks */,
+				EE877A371415B0AE0096A689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE877A371415B0AE0096A689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE877A361415B0AE0096A689 /* JailbreakCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE877A391415B0AE0096A689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE877A3A1415B0AE0096A689 /* UIKit.framework */,
+				EE877A3C1415B0AE0096A689 /* Foundation.framework */,
+				EE877A3E1415B0AE0096A689 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE877A401415B0AE0096A689 /* JailbreakCheck */ = {
+			isa = PBXGroup;
+			children = (
+				EE877A491415B0AE0096A689 /* JailbreakCheckAppDelegate.h */,
+				EE877A4A1415B0AE0096A689 /* JailbreakCheckAppDelegate.m */,
+				EE877A4C1415B0AE0096A689 /* MainWindow.xib */,
+				EE877A4F1415B0AE0096A689 /* JailbreakCheckViewController.h */,
+				EE877A501415B0AE0096A689 /* JailbreakCheckViewController.m */,
+				EE877A521415B0AE0096A689 /* JailbreakCheckViewController.xib */,
+				EE877A411415B0AE0096A689 /* Supporting Files */,
+			);
+			path = JailbreakCheck;
+			sourceTree = "<group>";
+		};
+		EE877A411415B0AE0096A689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE877A421415B0AE0096A689 /* JailbreakCheck-Info.plist */,
+				EE877A431415B0AE0096A689 /* InfoPlist.strings */,
+				EE877A461415B0AE0096A689 /* main.m */,
+				EE877A481415B0AE0096A689 /* JailbreakCheck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE877A351415B0AE0096A689 /* JailbreakCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE877A571415B0AE0096A689 /* Build configuration list for PBXNativeTarget "JailbreakCheck" */;
+			buildPhases = (
+				EE877A321415B0AE0096A689 /* Sources */,
+				EE877A331415B0AE0096A689 /* Frameworks */,
+				EE877A341415B0AE0096A689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JailbreakCheck;
+			productName = JailbreakCheck;
+			productReference = EE877A361415B0AE0096A689 /* JailbreakCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE877A2D1415B0AE0096A689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "hseungun@gmail.com";
+			};
+			buildConfigurationList = EE877A301415B0AE0096A689 /* Build configuration list for PBXProject "JailbreakCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE877A2B1415B0AE0096A689;
+			productRefGroup = EE877A371415B0AE0096A689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE877A351415B0AE0096A689 /* JailbreakCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE877A341415B0AE0096A689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE877A451415B0AE0096A689 /* InfoPlist.strings in Resources */,
+				EE877A4E1415B0AE0096A689 /* MainWindow.xib in Resources */,
+				EE877A541415B0AE0096A689 /* JailbreakCheckViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE877A321415B0AE0096A689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE877A471415B0AE0096A689 /* main.m in Sources */,
+				EE877A4B1415B0AE0096A689 /* JailbreakCheckAppDelegate.m in Sources */,
+				EE877A511415B0AE0096A689 /* JailbreakCheckViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE877A431415B0AE0096A689 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE877A441415B0AE0096A689 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE877A4C1415B0AE0096A689 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE877A4D1415B0AE0096A689 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EE877A521415B0AE0096A689 /* JailbreakCheckViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE877A531415B0AE0096A689 /* en */,
+			);
+			name = JailbreakCheckViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE877A551415B0AE0096A689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE877A561415B0AE0096A689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE877A581415B0AE0096A689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JailbreakCheck/JailbreakCheck-Prefix.pch";
+				INFOPLIST_FILE = "JailbreakCheck/JailbreakCheck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE877A591415B0AE0096A689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JailbreakCheck/JailbreakCheck-Prefix.pch";
+				INFOPLIST_FILE = "JailbreakCheck/JailbreakCheck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE877A301415B0AE0096A689 /* Build configuration list for PBXProject "JailbreakCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE877A551415B0AE0096A689 /* Debug */,
+				EE877A561415B0AE0096A689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE877A571415B0AE0096A689 /* Build configuration list for PBXNativeTarget "JailbreakCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE877A581415B0AE0096A689 /* Debug */,
+				EE877A591415B0AE0096A689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE877A2D1415B0AE0096A689 /* Project object */;
+}
