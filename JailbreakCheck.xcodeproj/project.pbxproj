@@ -23,14 +23,14 @@
 		EE877A3A1415B0AE0096A689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE877A3C1415B0AE0096A689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE877A3E1415B0AE0096A689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EE877A421415B0AE0096A689 /* JailbreakCheck-Info.plist */ = {isa = PBXFileReference; path = "JailbreakCheck-Info.plist"; sourceTree = "<group>"; };
+		EE877A421415B0AE0096A689 /* JailbreakCheck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JailbreakCheck-Info.plist"; sourceTree = "<group>"; };
 		EE877A441415B0AE0096A689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE877A461415B0AE0096A689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE877A481415B0AE0096A689 /* JailbreakCheck-Prefix.pch */ = {isa = PBXFileReference; path = "JailbreakCheck-Prefix.pch"; sourceTree = "<group>"; };
-		EE877A491415B0AE0096A689 /* JailbreakCheckAppDelegate.h */ = {isa = PBXFileReference; path = JailbreakCheckAppDelegate.h; sourceTree = "<group>"; };
+		EE877A481415B0AE0096A689 /* JailbreakCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JailbreakCheck-Prefix.pch"; sourceTree = "<group>"; };
+		EE877A491415B0AE0096A689 /* JailbreakCheckAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JailbreakCheckAppDelegate.h; sourceTree = "<group>"; };
 		EE877A4A1415B0AE0096A689 /* JailbreakCheckAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakCheckAppDelegate.m; sourceTree = "<group>"; };
 		EE877A4D1415B0AE0096A689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		EE877A4F1415B0AE0096A689 /* JailbreakCheckViewController.h */ = {isa = PBXFileReference; path = JailbreakCheckViewController.h; sourceTree = "<group>"; };
+		EE877A4F1415B0AE0096A689 /* JailbreakCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JailbreakCheckViewController.h; sourceTree = "<group>"; };
 		EE877A501415B0AE0096A689 /* JailbreakCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakCheckViewController.m; sourceTree = "<group>"; };
 		EE877A531415B0AE0096A689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JailbreakCheckViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
